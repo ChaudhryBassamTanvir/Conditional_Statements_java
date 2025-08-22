@@ -27,8 +27,25 @@ if (x%2==0) {
 }else{
     System.out.println("The Number is odd");
 }
-    }
+// cheking >,< or =
+System.out.println("Question check number >,< or =");
+int a = sc.nextInt();
+int b=sc.nextInt();
 
+if (a==b) {
+    System.out.println("The numbers are equals");
+    
+} else if( a>b){
+
+    System.out.println("a is greater");
+    
+}else{
+    System.out.println("b is greater");
+}
+
+
+
+    }
 
 
     
